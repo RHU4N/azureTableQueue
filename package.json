@@ -1,0 +1,19 @@
+{
+  "name": "queue-table-storage",
+  "version": "1.0.0",
+  "description": "Atividade 5 - Table Storage e processamento orientado a mensagens",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@azure/data-tables": "^13.3.1",
+    "@azure/storage-queue": "^12.31.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
